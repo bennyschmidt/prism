@@ -1,0 +1,15 @@
+{
+  "name": "prism-backend-example-saas-backend",
+  "author": "@exactchange",
+  "description": "A web app backend example with Prism",
+  "version": "0.0.3",
+  "scripts": {
+    "restart": "npm stop && npm start",
+    "start": "mongod --fork --syslog && node start",
+    "stop": "pkill mongod",
+    "test": "node test"
+  },
+  "dependencies": {
+    "fire-backend-test": "^1.0.2"
+  }
+}
