@@ -68,7 +68,7 @@ dbVersion=2
 ```
 and a new instance of the state-database will be created on node start. Easily switch between versions using the `dbVersion` flag, with any version name you like as the value.
 
-## [Examples](https://github.com/exactchange/prism-framework/tree/master/examples)
+## [Examples](https://github.com/exactchange/prism/tree/master/examples)
 
 Here is a basic API example to get you started:
 
